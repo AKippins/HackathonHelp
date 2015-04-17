@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="bootstrap-3.3.4-dist/css/dashboard.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="bootstrap-3.3.4-dist/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="flipclock/compiled/flipclock.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Hackathon Manager</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="purchase.html">Purchase P-Ups</a></li>
+            <li><a href="view.html">View P-Ups</a></li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="index.html">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="purchase.html">Purchase Power-ups</a></li>
+            <li><a href="view.html">View a Team's Power-ups</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Countdown to Judging</h1>
+
+          <div class="row">
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+              <div class="your-clock" style="margin:2em;"></div>
+            </div>
+          </div>
+
+          <h2 class="sub-header">Team Info</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Team Name</th>
+                  <th>Language</th>
+                  <th>Cash Amount</th>
+                  <th>Power-ups Available</th>
+                  <th>Power-ups Used</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Team 1</td>
+                  <td>Python</td>
+                  <td>$4,000</td>
+                  <td>2</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>Team 2</td>
+                  <td>JavaScript</td>
+                  <td>$4,000</td>
+                  <td>5</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>Team 3</td>
+                  <td>C++</td>
+                  <td>$6,500</td>
+                  <td>2</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>Team 4</td>
+                  <td>Haskell</td>
+                  <td>$10,000</td>
+                  <td>2</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>Team 5</td>
+                  <td>Swift</td>
+                  <td>$6,500</td>
+                  <td>2</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td>Team 6</td>
+                  <td>Ruby</td>
+                  <td>$5,000</td>
+                  <td>3</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td>Team 7</td>
+                  <td>Java</td>
+                  <td>$6,000</td>
+                  <td>5</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>Team 8</td>
+                  <td>Scala</td>
+                  <td>$8,000</td>
+                  <td>3</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>Team 9</td>
+                  <td>C++</td>
+                  <td>$6,500</td>
+                  <td>2</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>Team 10</td>
+                  <td>Python</td>
+                  <td>$4,000</td>
+                  <td>6</td>
+                  <td>8</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="bootstrap-3.3.4-dist/js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap-3.3.4-dist/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="flipclock/compiled/flipclock.js"></script>
+    <script type="text/javascript">
+        //Gets the current date
+        var currentDate = new Date();
+        //The end date time of the Hackathon
+        var futureDate = new Date("April 19, 2015 13:00:00");
+        //Gets the difference to be used as a variable for the countdown timer
+        var diff = futureDate/1000 - currentDate/1000;
+        //Initialize the clock and adds the elements needed
+        var clock = new FlipClock($('.your-clock'), diff, {
+            clockFace: 'DailyCounter',
+            autoStart: true,
+            countdown: true
+        });
+    </script>
+  </body>
+</html>

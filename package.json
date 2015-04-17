@@ -1,0 +1,22 @@
+{
+  "name": "HackathonHelp",
+  "version": "1.0.0",
+  "description": "Website for MCCS Hackathon Spring 2015",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AKippins/HackathonHelp.git"
+  },
+  "author": "Aaron Kippins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKippins/HackathonHelp/issues"
+  },
+  "homepage": "https://github.com/AKippins/HackathonHelp",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
