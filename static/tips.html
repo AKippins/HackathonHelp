@@ -120,6 +120,9 @@
         //Gets the difference to be used as a variable for the countdown timer
         var diff = futureDate/1000 - currentDate/1000;
         //Initialize the clock and adds the elements needed
+        if (diff = 0){
+            futureDate = new Date("November 20, 2015 18:00:00"
+        }
         var clock = new FlipClock($('.your-clock'), diff, {
             clockFace: 'DailyCounter',
             autoStart: true,
