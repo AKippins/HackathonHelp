@@ -46,8 +46,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="tips.html">Tips and Tricks</a></li>
-            <li><a href="mystery.html">7 Hour Hackathon</a></li>
-            <li><a href="mystery2.html">48 Hour Hackathon</a></li>
+            <li><a href="loading.html">7 Hour Hackathon</a></li>
+            <li><a href="mobile.html">48 Hour Hackathon</a></li>
           </ul>
         </div>
       </div>
@@ -57,9 +57,9 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="index.html">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="index.html">Overview <span class="sr-only">(current)</span></a></li>
             <li><a href="tips.html">Tips and Tricks</a></li>
-            <li><a href="loading.html">7 Hour Hackathon</a></li>
+            <li class="active"><a href="loading.html">7 Hour Hackathon</a></li>
             <li><a href="mobile.html">48 Hour Hackathon</a></li>
           </ul>
         </div>
@@ -70,36 +70,29 @@
               <div class="your-clock" style="margin:2em;"></div>
             </div>
           </div>
-          <h2 class="sub-header">Restrictions (You Can Buy Out Of These! (6 Max))</h2>
+          <h2 class="sub-header">Objective</h2>
           <div class="row">
+            <div class="text-center">
+              <p>
+                In celebration of Namco Bandai's recently expired patent, we've decided to have the 7 Hour Hackathon in their honor. For this Hackathon you will be tasked with making a loading screen game. The loading screen game changed the way we think about loading screens and didn't leave us with boredom while waiting.
+              </p>
+            </div>
+            <div class="text-center">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/TU7VuXg0vFg" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br>
+            <h2 class="sub-header">Guidelines</h2>
             <ul style="font-size:16px">
-              <li>No Descriptive Function Names - $300</li>
-              <li>No Lines > 80 Characters - $100</li>
-              <li>You Need at Least 3 Recursive Functions - $200</li>
-              <li>All loops must be Do While Loops - $100</li>
-              <li>No Indentation - $300</li>
-              <li>No Comments - $300</li>
-              <li>At Least 2 GitHub Commits an Hour (10am - 8pm) - $100</li>
-              <li>All Functions Must Be < 10 lines - $200</li>
-              <li>Everything Must Be Included In One File - $200</li>
-              <li>You Must Provide Documentation - $100</li>
+              <li>You need some element so that we know that the game is loading...</li>
+              <li>Try to make the game interactive and fun.</li>
+              <li>There's no requirement on language for this one, as long as the game is dope.</li>
+              <li>Be creative, there's no bounds on what you can and can't do!</li>
+              <li>Remember normal loading screens are boring. Whatever your creative minds can come up with will be better!</li>
             </ul>
-          </div>
-          <h2 class="sub-header">Restrictions You Can Apply!!!</h2>
-          <div class="row">
-            <ul style="font-size:16px">
-              <li>You Can Reapply That They Need at Least 3 Recursive Functions - $200</li>
-              <li>7 loops must be Do While Loops - $200</li>
-              <li>At Least 5 GitHub Commits an Hour (For 4 Hours Upon Activation) - $200</li>
-              <li>5 Functions Must Be < 10 lines - $200</li>
-            </ul>
-          </div>
-          <h2 class="sub-header">I Need HELP!!!!!!!!</h2>
-          <div class="row">
-            <ul style="font-size:16px">
-              <li>Get Help From An Expert For An Hour - $500</li>
-              <li>Get Help From A Noob For An Hour - $300</li>
-            </ul>
+            <h2 class="sub-header">Questions?</h2>
+            <p>
+              If you have any questions and can't find any of us message us on Slack!
+            </p>
           </div>
         </div>
       </div>
@@ -119,7 +112,7 @@
         //Gets the current date
         var currentDate = new Date();
         //The end date time of the Hackathon
-        var futureDate = new Date("December 5, 2015 17:00:00");
+        var futureDate = new Date("December 4, 2015 17:00:00");
         //Gets the difference to be used as a variable for the countdown timer
         var diff = futureDate/1000 - currentDate/1000;
         //Initialize the clock and adds the elements needed
